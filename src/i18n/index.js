@@ -31,7 +31,10 @@ const resources = {
       contact: "Contact",
       contact_description: "Always available for freelancing if the right project comes along. Feel free to contact me!",
       contact_email: "Email: your.email@example.com",
-      lightdark: "Light/ Dark"
+      lightdark: "Light/ Dark",
+      welcome: "Welcome",
+      cv: "Download CV",
+      web_developer: "Web Developer",
     },
   },
   vi: {
@@ -63,7 +66,10 @@ const resources = {
       contact: "Liên hệ",
       contact_description: "Luôn sẵn sàng cho các dự án tự do nếu có cơ hội phù hợp. Hãy liên hệ với tôi!",
       contact_email: "Email: your.email@example.com",
-      lightdark: "Sáng/ Tối"
+      lightdark: "Sáng/ Tối",
+      welcome: "Xin chào",
+      cv: "Tải CV",
+      web_developer: "Web Developer",
     },
   },
 };
@@ -72,7 +78,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'vi', 
+    lng: 'en', 
     interpolation: {
       escapeValue: false, 
     },
