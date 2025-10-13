@@ -31,6 +31,7 @@ const resources = {
       contact: "Contact",
       contact_description: "Always available for freelancing if the right project comes along. Feel free to contact me!",
       contact_email: "Email: your.email@example.com",
+      lightdark: "Light/ Dark"
     },
   },
   vi: {
@@ -62,6 +63,7 @@ const resources = {
       contact: "Liên hệ",
       contact_description: "Luôn sẵn sàng cho các dự án tự do nếu có cơ hội phù hợp. Hãy liên hệ với tôi!",
       contact_email: "Email: your.email@example.com",
+      lightdark: "Sáng/ Tối"
     },
   },
 };
