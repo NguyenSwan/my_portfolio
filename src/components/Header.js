@@ -37,7 +37,9 @@ function Header() {
       }`}
     >
       <nav className="flex justify-between items-center max-w-6xl mx-auto">
-        <h1 className="text-2xl font-bold">{t("name")}</h1>
+        <h1 className="text-2xl font-bold">
+          <a href="#home">{t("name")}</a>
+        </h1>
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-4">
@@ -96,7 +98,7 @@ function Header() {
 
             {/* Mobile Hamburger Menu Button */}
             <button onClick={toggleMobileMenu} className="p-2">
-              <div className="w-6 h-6 flex flex-col justify-center space-y-1 bg-gray-400">
+              <div className="w-6 h-6 flex flex-col justify-center space-y-1">
                 <span className="block w-full h-0.5 bg-white"></span>
                 <span className="block w-full h-0.5 bg-white"></span>
                 <span className="block w-full h-0.5 bg-white"></span>

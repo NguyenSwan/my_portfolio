@@ -5,8 +5,8 @@ const resources = {
   en: {
     translation: {
       name: 'Nguyen Swan',
-      about: "About Me",
-      about_description: "I am a software engineer with over 1 year of experience, passionate about creating carefully crafted products. I am an active learner, constantly improving my skills and embracing new challenges.",
+      about: "About me",
+      about_description: "I am a software engineer with 6 months of experience, passionate about creating well-designed products. I am a proactive learner, constantly improving my skills and ready to take on new challenges.",
       experience: "Experience",
       experience_vpbank_title: "Fullstack Developer at VPBank",
       experience_vpbank_date: "08/2024 - Present",
@@ -35,13 +35,15 @@ const resources = {
       welcome: "Welcome",
       cv: "Download CV",
       web_developer: "Web Developer",
+      phone: "Phone",
+      email: "Email"
     },
   },
   vi: {
     translation: {
       name: 'Nguyễn Thiên Nga',
       about: 'Giới thiệu',
-      about_description: "Tôi là một kỹ sư phần mềm với hơn 1 năm kinh nghiệm, đam mê tạo ra các sản phẩm được đầu tư kỹ lưỡng. Tôi luôn chủ động học hỏi, không ngừng nâng cao kỹ năng và đón nhận những thử thách mới.",
+      about_description: "Tôi là một kỹ sư phần mềm với 6 tháng kinh nghiệm, đam mê tạo ra những sản phẩm được thiết kế tỉ mỉ. Tôi là một người học hỏi tích cực, không ngừng nâng cao kỹ năng và sẵn sàng đón nhận những thử thách mới.",
       experience: "Kinh nghiệm",
       experience_vpbank_title: "Lập trình viên Fullstack tại VPBank",
       experience_vpbank_date: "08/2024 - Hiện tại",
@@ -70,6 +72,8 @@ const resources = {
       welcome: "Xin chào",
       cv: "Tải CV",
       web_developer: "Web Developer",
+      phone: "Điện thoại",
+      email: "Email"
     },
   },
 };
