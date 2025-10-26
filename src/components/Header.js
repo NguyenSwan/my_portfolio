@@ -58,11 +58,11 @@ function Header() {
               {t("projects")}
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#skills" className="hover:text-red-200">
               {t("skills")}
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#contact" className="hover:text-red-200">
               {t("contact")}
