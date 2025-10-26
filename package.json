@@ -7,10 +7,10 @@
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^13.5.0",
-    "i18next": "^25.5.2",
+    "i18next": "^22.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-i18next": "^16.0.0",
+    "react-i18next": "^12.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -21,17 +21,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": ["react-app", "react-app/jest"]
   },
   "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
+    "production": [">0.2%", "not dead", "not op_mini all"],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
