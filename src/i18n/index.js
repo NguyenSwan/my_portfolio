@@ -22,15 +22,29 @@ const resources = {
       experience_fpt_desc: "During my time at FPT University, I built a strong foundation in programming and software development. I actively created and contributed to various projects ranging from Front-End to Full-Stack, using technologies such as ReactJS, Node.js, Express, MongoDB, and MySQL. These experiences helped me strengthen my problem-solving skills, creativity, and ability to build scalable, user-centered web applications.",
 
       projects: "Projects",
-      project_mindgpt_title: "MindGPT",
-      project_mindgpt_date: "July 2024",
-      project_mindgpt_desc: "Champion of GenAI Hackathon 2024. An AI application offering intelligent suggestions and personalized mindmaps to improve learning efficiency and creative thinking.",
-      project_jsclub_recruitment_title: "JS Club's 12th Gen Membership Recruitment Landing Page",
-      project_jsclub_recruitment_date: "Jan 2024",
-      project_jsclub_recruitment_desc: "Landing page promoting the 12th generation member recruitment event of the Japanese Software Engineers Club - FPT University Hanoi.",
-      project_cmed_title: "CMED.VN",
-      project_cmed_date: "Nov 2023",
-      project_cmed_desc: "Developed and maintained the official website of CMED medical business and operations consulting JSC.",
+      PROJETCS: "PROJECTS",
+      a_showcase: "A showcase of my work and experiments",
+      
+      prj_portfolio: "Portfolio",
+      prj_portfolio_date: "4/2025",
+      prj_portfolio_des: "A portfolio using React, i18n... to show my skills",
+      
+      prj_cake: "Cake Website",
+      prj_cake_date: "8/2025",
+      prj_cake_des: "A website using React Vite, Express, Mongo,... with role Admin, User",
+
+      prj_ope: "Admin Dashboard",
+      prj_ope_date: "3/2025",
+      prj_ope_des: "A project Admin dashboarch using React, Taiwindcss,... in NodeJS",
+
+      prj_on_thi: "Driving test",
+      prj_on_thi_date: "10/2025",
+      prj_on_thi_des: "A driving test preparation project using React, TaiwindCSS, with Admin and User roles",
+
+      // Thêm cho project nhỏ (small projects)
+      project_small1_title: "Calculator App",
+      project_small1_desc: "A responsive calculator app with a sleek, modern design and custom themes.",
+
       skills: "Skills",
       skills_programming: "Programming Languages: TypeScript, Java, C",
       skills_frameworks: "Libraries & Frameworks: ReactJS, NextJS, TailwindCSS, Mantine, React-I18N, NestJS, Spring Boot",
@@ -43,7 +57,9 @@ const resources = {
       cv: "Download CV",
       web_developer: "Web Developer",
       phone: "Phone",
-      email: "Email"
+      email: "Email",
+      view_detail: "View detail",
+      other_prj: "Other Projects"
     },
   },
   vi: {
@@ -66,15 +82,28 @@ const resources = {
       experience_fpt_desc: "Trong quá trình học tại Đại học FPT, tôi đã xây dựng nền tảng vững chắc về lập trình và phát triển phần mềm. Tôi chủ động thực hiện nhiều dự án từ Front-End đến Full-Stack, sử dụng các công nghệ như ReactJS, Node.js, Express, MongoDB và MySQL. Những trải nghiệm này giúp tôi nâng cao khả năng giải quyết vấn đề, tư duy sáng tạo và phát triển ứng dụng web hiệu quả, thân thiện với người dùng.",
 
       projects: "Dự án",
-      project_mindgpt_title: "MindGPT",
-      project_mindgpt_date: "Tháng 7/2024",
-      project_mindgpt_desc: "Quán quân GenAI Hackathon 2024. Ứng dụng AI cung cấp gợi ý thông minh và bản đồ tư duy cá nhân hóa để cải thiện hiệu quả học tập và tư duy sáng tạo.",
-      project_jsclub_recruitment_title: "Landing Page Tuyển thành viên Gen 12 JS Club",
-      project_jsclub_recruitment_date: "Tháng 1/2024",
-      project_jsclub_recruitment_desc: "Landing page quảng bá sự kiện tuyển thành viên thế hệ 12 của Câu lạc bộ Kỹ sư Phần mềm Nhật Bản - Đại học FPT Hà Nội.",
-      project_cmed_title: "CMED.VN",
-      project_cmed_date: "Tháng 11/2023",
-      project_cmed_desc: "Phát triển và duy trì website chính thức của Công ty Tư vấn Kinh doanh và Vận hành Y tế CMED.",
+      PROJETCS: "DỰ ÁN",
+      a_showcase: "Các dự án của tôi",
+      
+      prj_portfolio: "Portfolio",
+      prj_portfolio_date: "4/2025",
+      prj_portfolio_des: "Một dự án sử dụng React, i18n... để thể hiện kỹ năng của tôi",
+
+      prj_cake: "Cake Website",
+      prj_cake_date: "8/2025",
+      prj_cake_des: "Một trang web sử dụng React Vite, Express, Mongo,... với vai trò Admin, User",
+
+      prj_ope: "Admin Dashboard",
+      prj_ope_date: "3/2025",
+      prj_ope_des: "Một dự án Admin dashboard sử dụng React, Taiwindcss,... trong NodeJS",
+
+      prj_on_thi: "Driving test",
+      prj_on_thi_date: "10/2025",
+      prj_on_thi_des: "Một dự án ôn thi bằng lái sử dụng React, TaiwindCSS, có role Admin và User",
+      // Thêm cho project nhỏ (small projects)
+      project_small1_title: "Calculator App",
+      project_small1_desc: "Ứng dụng máy tính đáp ứng nhanh với thiết kế hiện đại, đẹp mắt và giao diện tùy chỉnh.",
+     
       skills: "Kỹ năng",
       skills_programming: "Ngôn ngữ lập trình: TypeScript, Java, C",
       skills_frameworks: "Thư viện & Framework: ReactJS, NextJS, TailwindCSS, Mantine, React-I18N, NestJS, Spring Boot",
@@ -87,7 +116,9 @@ const resources = {
       cv: "Tải CV",
       web_developer: "Web Developer",
       phone: "Điện thoại",
-      email: "Email"
+      email: "Email",
+      view_detail: "Xem chi tiết",
+      other_prj: "Các dự án khác"
     },
   },
 };

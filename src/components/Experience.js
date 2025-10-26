@@ -49,6 +49,7 @@ function Experience() {
               <p className="text-sm text-gray-500 dark:text-gray-400">
                 {t("experience_fpt_date")}
               </p>
+              <hr/>
               <p className="mt-2 text-gray-600 dark:text-gray-300">
                 {t("experience_fpt_desc")}
               </p>
